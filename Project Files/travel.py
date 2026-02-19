@@ -3,7 +3,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure API key
-api_key = "AIzaSyDdtGua6zuEoXaEhYpLDzF3yg3ZyFSao10"
+api_key = "AIzaSyCdcy8FpSFlRX99wxw9SZb7vqsuN4mJB1g"
 genai.configure(api_key=api_key)
 
 # Function to generate a travel itinerary based on user input
@@ -66,4 +66,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
